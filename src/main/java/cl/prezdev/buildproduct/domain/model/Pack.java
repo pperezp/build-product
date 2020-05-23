@@ -1,4 +1,4 @@
-package cl.prezdev.buildproduct.domain;
+package cl.prezdev.buildproduct.domain.model;
 
 import java.util.List;
 
