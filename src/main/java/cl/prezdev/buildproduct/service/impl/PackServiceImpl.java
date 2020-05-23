@@ -41,4 +41,9 @@ public class PackServiceImpl implements PackService {
 
         return packsDto;
     }
+
+    @Override
+    public Pack create(Pack pack) {
+        return packRepository.save(pack);
+    }
 }
